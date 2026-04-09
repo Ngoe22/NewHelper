@@ -1,0 +1,20 @@
+.nav {
+    &List {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    &Link {
+        text-decoration: none;
+        padding: 5px;
+        display: block;
+        color: var(--gray);
+    }
+
+    &Active {
+        font-weight: 500;
+        box-shadow: var(--light-shadow);
+        color: var(--black);
+    }
+}
